@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   entry_points:
     - lambda-builders=aws_lambda_builders.__main__:main
   script: {{ PYTHON }} -m pip install . -vv
@@ -50,6 +50,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - mxr-conda
     - rluria14
     - oblute
     - ndmaxar
