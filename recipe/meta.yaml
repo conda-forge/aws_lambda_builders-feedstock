@@ -1,5 +1,5 @@
 {% set name = "aws_lambda_builders" %}
-{% set version = "1.49.0" %}
+{% set version = "1.50.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 49fd4a313b9b5da9686b07b190939cf0d6863edd3f06f511ba91cc45c131fb19
+  sha256: ad95ed55359c399872f5825582896500dfc1c5564eccf2a6ab8d0e9f6c1ae385
 
 build:
   noarch: python
