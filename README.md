@@ -29,7 +29,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-aws_lambda_builders-green.svg)](https://anaconda.org/conda-forge/aws_lambda_builders) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/aws_lambda_builders.svg)](https://anaconda.org/conda-forge/aws_lambda_builders) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/aws_lambda_builders.svg)](https://anaconda.org/conda-forge/aws_lambda_builders) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/aws_lambda_builders.svg)](https://anaconda.org/conda-forge/aws_lambda_builders) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-aws__lambda__builders-green.svg)](https://anaconda.org/conda-forge/aws_lambda_builders) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/aws_lambda_builders.svg)](https://anaconda.org/conda-forge/aws_lambda_builders) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/aws_lambda_builders.svg)](https://anaconda.org/conda-forge/aws_lambda_builders) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/aws_lambda_builders.svg)](https://anaconda.org/conda-forge/aws_lambda_builders) |
 
 Installing aws_lambda_builders
 ==============================
