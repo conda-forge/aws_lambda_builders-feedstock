@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   entry_points:
     - lambda-builders=aws_lambda_builders.__main__:main
   script: {{ PYTHON }} -m pip install . -vv
@@ -19,15 +19,17 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python {{ python_min }}
     - setuptools
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - setuptools
     - six >=1.11,<2
     - wheel
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - aws_lambda_builders
     - aws_lambda_builders.workflows
