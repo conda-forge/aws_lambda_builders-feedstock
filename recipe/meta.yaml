@@ -1,5 +1,5 @@
 {% set name = "aws_lambda_builders" %}
-{% set version = "1.70.0" %}
+{% set version = "1.71.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ab5f4ac5dbfc851961c5e58378deb9dab701ecf9615c2897202d47be814fa4c0
+  sha256: d904e1a21c172398eba74d15a9723273751d975fd5a83b36112f0a47f60cf275
 
 build:
   noarch: python
